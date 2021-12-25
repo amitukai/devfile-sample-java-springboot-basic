@@ -14,6 +14,11 @@ public class DemoApplication {
     String home() {
         return "Hello World!";
     }
+    
+    @RequestMapping("/amitukai")
+    String home1() {
+        return "Welcome to my Github project!";
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
